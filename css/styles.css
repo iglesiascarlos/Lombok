@@ -47,7 +47,8 @@ h2{
 }
 
 h3{
-
+    font-family: "brotherregular";
+    font-size: 30px;
 }
 
 /* ***************** */
@@ -101,7 +102,7 @@ ul li{
 }
 
 .textsubscribe{
-    border: solid 4px black;
+    border: solid 3.3px black;
     padding: 20px 40px 20px 40px;
 }
 
