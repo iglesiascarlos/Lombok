@@ -1,0 +1,124 @@
+/* ***************** */
+/* ***** FONTS ***** */
+/* ***************** */
+
+/** Brother 1816 regular **/
+@font-face {
+    font-family: "brotherRegular";
+    src: url(/fonts/Brother1816-Regular.woff2);
+}
+/** Brother 1816 Bold **/
+@font-face {
+    font-family: "brotherBold";
+    src: url(/fonts/Brother1816-Bold.woff2);
+}
+
+/* ***************** */
+/* ***** BODY ****** */
+/* ***************** */
+body{
+    background-color: #556B69;
+    display: flex;
+    justify-content: center;
+    font-family: "brotherRegular";
+    padding-top: 40px;
+}
+
+/** DIV container **/
+.container {
+    max-width: 1440px;
+    width: 1440px;
+}
+
+/* ***************** */
+/* **** DEF H.. **** */
+/* ***************** */
+h1{
+    font-family: "Brotherbold";
+    font-size: 100px;
+    letter-spacing: 12px;
+    color: #474C46;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+/* ***************** */
+/* **** PORTADA **** */
+/* ***************** */
+.portada{
+    padding: 20px;
+    background-color: #FDFDFD
+    ;
+}
+/* ***************** */
+/* ****** NAV ****** */
+/* ***************** */
+
+/**BG-NAV**/
+nav{
+    /** DISPLAY */
+    display: flex;
+    justify-content: space-between;
+    /** BG */
+    background-image: url("/img/desktop/img-portada1.webp");
+    background-size: cover;
+    /** SIZE */
+
+}
+/**LISTAS NAV**/
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.navright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+.logo{
+    font-family: "brotherBold";
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+ul li{
+    margin-right: 20px;
+    margin-left: 20px;
+    letter-spacing: 5px;
+}
+
+.textsubscribe{
+    border: solid 4px black;
+    padding: 20px 40px 20px 40px;
+}
+
+/* ****************** */
+/**  BANNER PORTADA  **/
+/* ****************** */
+.bannerportada{
+    /** imagen portada // con cover */
+    background-image: url("/img/desktop/img-portada2.webp");
+    height: 750px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;;
+}
+
+.titulo{
+    margin-top: 150px;
+}
+
