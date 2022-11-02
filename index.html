@@ -29,20 +29,20 @@
             </nav>
 
             <!-- * Article para agrupar la portada con imagen de bg junto a dos textos y linea -->
-            <article class="bannerportada">
+            <section class="bannerportada">
                     <h1 class="titulo">LOMBOK</h1>
                     <h3 class="subtitulo">HOLISTIC HEALTH</h3>
                     <hr class="linedown">
-            </article>
+            </section>
         </div>
 
 
-        <article class="latest">
+        <section class="latest">
             <!-- TITULO LATEST ENCIMA DE HR E IMAGENES -->
             <h3 class="titulolatest">LATEST ARTICLES</h3>
             <hr class="hrlatest">
             <!-- IMAGEN IZQUIERDA -->
-            <section class="imagenes">    
+            <article class="imagenes">    
                 <figure class="imagen">
                     <picture>
                         <source srcset="/img/desktop/img-izq.webp" type="image/webp">
@@ -72,25 +72,43 @@
                     <hr class="hrpicture">
                     <figcaption>How to go deep into the mind of hope</figcaption>
                 </figure>
-            </section>
-        </article>
+            </article>
+        </section>
 
 
-        <article class="about">
-            <section class="imagenabout"></section>
-            <section class="textoabout">
+        <section class="about">
+            <article class="imagenabout"></article>
+            <article class="textoabout">
                 <h3 class="t-about">ABOUT</h3>
                 <hr class="hrabout">
                 <p class="parrafo-about">Since 1993 we have roamed is a big blog from the earliest years. Lorem ipsum dolor sit amet, consectetur adisping elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullarnco laboris nisit ut alisquip ex ea cornmodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse eillum dolore eu fugiat.</p>
-            </section>
-        </article>
+            </article>
+        </section>
         
-        <!-- <article class="subscribe">
-            <input type="email" name="" id="">
-            <button type="submit">SUBMIT</button>
-        </article>
+        <section class="subscribe">
+                <form>
+                    <h3 class="titulo-email">SUBSCRIBE</h3>
+                    <label for="email" class="label-email">Sign-up to our newsletter</label>
+                    <input type="email" name="email" id="email" placeholder=" Your email" size="60">
+                    <button type="submit" class="submit">SUBMIT</button>
+                </form>
+        </section>
         
-        <footer></footer> -->
+        <footer>
+            <article class="iconos-redes">
+                <img src="/img/svg/instagram.svg" alt="instagram">
+                <img src="/img/svg/twitter.svg" alt="twitter">
+                <img src="/img/svg/facebook.svg" alt="facebook">
+                <img src="/img/svg/pinterest.svg" alt="pinterest">
+            </article>
+            <article class="second-nav">
+                <ul class="secondnav-right">
+                    <li>ABOUT</li>
+                    <li>ARTICLES</li>
+                    <li class="secondsubscribe">SUBSCRIBE</li>
+                </ul>
+            </article>
+        </footer>
     </div>
 </body>
 </html>

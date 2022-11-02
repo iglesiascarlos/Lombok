@@ -250,3 +250,63 @@ figcaption{
     margin: 0 100px 0 100px;
     line-height: 35px;
 }
+
+/* ********************* */
+/* ***** SUBSCRIBE ***** */
+/* ********************* */
+
+.subscribe{
+    background-color: #E1E6E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 100px 0;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-email{
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.label-email{
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+#email{
+    letter-spacing: 2px;
+    height: 60px;
+    border: 2px solid white;
+    background-color: #F1F3F0;
+    padding-left: 40px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.submit{
+    background-color: #E1E6E0;
+    border: 2px solid black;
+    height: 50px;
+    width: 160px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    letter-spacing: 5px;
+}
+
+/* ****************** */
+/* ***** FOOTER ***** */
+/* ****************** */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FDFDFD;
+    padding: 30px 60px 30px 100px;
+}
