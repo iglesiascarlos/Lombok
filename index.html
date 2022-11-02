@@ -38,70 +38,107 @@
 
 
         <section class="latest" id="latest">
-            <!-- TITULO LATEST ENCIMA DE HR E IMAGENES -->
+            <!--* TITULO LATEST ENCIMA DE HR E IMAGENES -->
             <h3 class="titulolatest">LATEST ARTICLES</h3>
+            <!--* LINEA SEAPARADORA LATEST  -->
             <hr class="hrlatest">
-            <!-- IMAGEN IZQUIERDA -->
-            <article class="imagenes">    
+            <!--* IMAGEN IZQUIERDA -->
+            <article class="imagenes"> 
+                <!-- * INSERTAMOS 3 FIGURE PARA POSICIONAR LAS IMAGENES EN GOOGLE -->
                 <figure class="imagen">
+                    <!-- * PICTURE PRIMERA IMAGEN CON SU SOURCE E IMG -->
                     <picture>
-                        <source srcset="../img/desktop/img-izq.webp" type="image/webp">
+                        <source srcset="
+                            img/desktop/img-izq.webp,
+                            img/desktop/img-izq@2x.webp
+                            " 
+                        />
 
                         <img src="" alt="Planta verde fondo oscuro">
                     </picture>
+                    <!-- * HR PARA SEPARAR LA IMAGEN DEL FIGCAPTION  -->
                     <hr class="hrpicture">
+                    <!-- * USAMOS FIGCAPTION PARA PONER LA DESCRIPCION DE CADA IMAGEN  -->
                     <figcaption>How to use mindfullnes in your everyday life</figcaption>
                 </figure>
-                <!-- IMAGEN CENTRO  -->
+                <!--* IMAGEN CENTRO  -->
                 <figure class="imagen">
+                    <!-- * PICTURE SEGUNDA IMAGEN CON SU SOURCE E IMG -->
                     <picture>
-                        <source srcset="../img/desktop/img-centro.webp" type="image/webp">
+                        <source srcset="
+                            img/desktop/img-centro.webp,
+                            img/desktop/img-centro@2x.webp
+                            " 
+                        />
 
                         <img src="" alt="Persona en lago con niebla blanco y negro">
                     </picture>
+                    <!-- * HR PARA SEPARAR LA IMAGEN DEL FIGCAPTION  -->
                     <hr class="hrpicture">
+                    <!-- * USAMOS FIGCAPTION PARA PONER LA DESCRIPCION DE CADA IMAGEN  -->
                     <figcaption class="figcenter">What are the best walking meditations</figcaption>
                 </figure>
-                <!-- IMAGEN DERECHA  -->
+                <!--* IMAGEN DERECHA  -->
                 <figure class="imagen">
+                    <!-- * PICTURE TERCERA IMAGEN CON SU SOURCE E IMG -->
                     <picture>
-                        <source srcset="../img/desktop/img-derecha.webp" type="image/webp">
+                        <source srcset="
+                            img/desktop/img-derecha.webp,
+                            img/desktop/img-derecha@2x.webp
+                            "
+                        />
 
                         <img src="" alt="planta hojas fondo oscuro">
                     </picture>
+                    <!-- * HR PARA SEPARAR LA IMAGEN DEL FIGCAPTION  -->
                     <hr class="hrpicture">
+                    <!-- * USAMOS FIGCAPTION PARA PONER LA DESCRIPCION DE CADA IMAGEN  -->
                     <figcaption>How to go deep into the mind of hope</figcaption>
                 </figure>
             </article>
         </section>
 
-
+        <!-- * SECCION ABOUT CON IMAGEN A LA IZQ Y TEXTO A LA DERECHA  -->
         <section class="about" id="about">
+            <!-- * ARTICLES PARA POSICIONAR LA IMAGEN A LA IZQ  -->
             <article class="imagenabout"></article>
+            <!-- * ARTICLE PARA POSICIONAR TEXTO CON TITULO Y SEPARADOR A LA DERECHA  -->
             <article class="textoabout">
+                <!-- * TITULO SECCION ABOUT  -->
                 <h3 class="t-about">ABOUT</h3>
+                <!-- * SEPARADOR SECCION ABOUT  -->
                 <hr class="hrabout">
+                <!-- * PARRAFO SECCION ABOUT  -->
                 <p class="parrafo-about">Since 1993 we have roamed is a big blog from the earliest years. Lorem ipsum dolor sit amet, consectetur adisping elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullarnco laboris nisit ut alisquip ex ea cornmodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse eillum dolore eu fugiat.</p>
             </article>
         </section>
         
+        <!-- * SECCION SUBSCRIBE CON FORMULARIO  -->
         <section class="subscribe" id="subscribe">
-                <form>
-                    <h3 class="titulo-email">SUBSCRIBE</h3>
-                    <label for="email" class="label-email">Sign-up to our newsletter</label>
-                    <input type="email" name="email" id="email" placeholder=" Your email" size="60">
-                    <button type="submit" class="submit">SUBMIT</button>
-                </form>
+            <!-- * ABRIMOS FORMULARIO PARA AÑADIR FUNCIONALIDAD AL SUBSCRIBE PUDIENDO ENVIAR EL EMAIL      -->
+            <form>
+                <!-- * TITULO SUBSCRIBE FORMULARIO  -->
+                <h3 class="titulo-email">SUBSCRIBE</h3>
+                <!-- * LABEL PARA FORMULARIO CON FRASE SIGN-UP  -->
+                <label for="email" class="label-email">Sign-up to our newsletter</label>
+                <!-- * INPUT PARA EL EMAIL  -->
+                <input type="email" name="email" id="email" placeholder=" Your email" size="60">
+                <!-- * BOTON PARA ENVIAR FORMULARIO TYPE SUBMIT  -->
+                <button type="submit" class="submit">SUBMIT</button>
+            </form>
         </section>
-        
+        <!-- * SECCION FOOTER DE LA PAGINA CON REDES Y SEGUNDO NAV  -->
         <footer>
+            <!-- * ARTICLE PARA AÑADIR ICONOS Y ENLACES REDES  -->
             <article class="iconos-redes">
                 <img src="./img/svg/instagram.svg" alt="instagram">
                 <img src="./img/svg/twitter.svg" alt="twitter">
                 <img src="./img/svg/facebook.svg" alt="facebook">
                 <img src="./img/svg/pinterest.svg" alt="pinterest">
             </article>
+            <!-- * ARTICLE PARA CREAR SEGUNDO NAV A LA DERECHA DEL FOOTER  -->
             <article class="second-nav">
+                <!-- * LISTA CON SEGUNDO NAV  -->
                 <ul class="secondnav-right">
                     <li><a href="#about" >ABOUT</a></li>
                     <li><a href="#latest" >ARTICLES</a></li>
