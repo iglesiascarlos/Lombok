@@ -73,7 +73,7 @@ nav{
     display: flex;
     justify-content: space-between;
     /** BG */
-    background-image: url("/img/desktop/img-portada1.webp");
+    background: url("../img/desktop/img-portada1.webp");
     background-size: cover;
     /** SIZE */
 
@@ -116,7 +116,7 @@ ul li{
 /* ****************** */
 .bannerportada{
     /** imagen portada // con cover */
-    background-image: url("/img/desktop/img-portada2.webp");
+    background: url("../img/desktop/img-portada2.webp");
     height: 750px;
     background-size: cover;
     display: flex;
@@ -216,7 +216,7 @@ figcaption{
 }
 
 .imagenabout{
-    background-image: url("/img/desktop/img-about.webp");
+    background: url("../img/desktop/img-about.webp");
     height: 657px;
     width: 50%;
     background-size: cover;
