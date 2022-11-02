@@ -154,6 +154,7 @@ ul li{
 /* **************** */
 figure{
     background-color: #FDFDFD;
+    box-shadow: 5px 5px 40px grey;
 }
 
 .latest{
